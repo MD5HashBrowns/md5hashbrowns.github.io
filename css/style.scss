@@ -47,6 +47,16 @@ h1,h2,h3 {
   background-size: cover;
   margin-bottom: 2rem;
 }
+.footer {
+  position:absolute;
+  text-align: center;
+  color: $darkBlue;
+  margin: 0 auto;
+  font-family: $textFont;
+  bottom:1rem;
+  right:0;
+  left:0;
+}
 .headerText {
   display: flex;
   flex-direction: column;
@@ -62,4 +72,8 @@ h1,h2,h3 {
     width:12rem;
     height:auto;
   }
+}
+
+#heart {
+  color:darkred;
 }

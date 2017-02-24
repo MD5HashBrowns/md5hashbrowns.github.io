@@ -48,14 +48,10 @@ h1,h2,h3 {
   margin-bottom: 2rem;
 }
 .footer {
-  position:absolute;
   text-align: center;
   color: $darkBlue;
   margin: 0 auto;
   font-family: $textFont;
-  bottom:0;
-  right:0;
-  left:0;
   background-color: $white;
   p {
     padding: 1rem;

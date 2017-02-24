@@ -53,9 +53,13 @@ h1,h2,h3 {
   color: $darkBlue;
   margin: 0 auto;
   font-family: $textFont;
-  bottom:1rem;
+  bottom:0;
   right:0;
   left:0;
+  background-color: $white;
+  p {
+    padding: 1rem;
+  }
 }
 .headerText {
   display: flex;
